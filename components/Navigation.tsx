@@ -75,7 +75,7 @@ export default function Navigation() {
             </div>
             <div className="hidden md:block">
               <div className="text-white font-bold text-lg">TFS Fire Department</div>
-              <div className="text-fire-orange text-xs">Fortine, Montana</div>
+              <div className="text-fire-orange text-xs">Lincoln County, Montana</div>
             </div>
           </Link>
 
