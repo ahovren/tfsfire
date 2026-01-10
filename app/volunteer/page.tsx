@@ -140,7 +140,7 @@ export default function VolunteerPage() {
               <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center">
                 <CheckCircle className="w-5 h-5 text-green-600 mr-2" aria-hidden="true" />
                 <p className="text-green-800">
-                  Application submitted successfully! We'll review your application and contact you within 5-7 business days.
+                  Application submitted successfully! We&apos;ll review your application and contact you within 5-7 business days.
                 </p>
               </div>
             )}

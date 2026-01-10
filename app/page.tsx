@@ -36,7 +36,7 @@ export default function HomePage() {
                 Protecting Our Rural Community
               </h1>
               <p className="text-lg md:text-xl mb-8 text-fire-dark/80 max-w-2xl md:max-w-none mx-auto md:mx-0">
-                Dedicated volunteers serving our community 24/7 with courage, commitment, and compassion. When emergencies strike, we're here to help.
+                Dedicated volunteers serving our community 24/7 with courage, commitment, and compassion. When emergencies strike, we&apos;re here to help.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <Link href="/volunteer" className="btn-primary">
@@ -85,7 +85,7 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div className="text-center p-6 bg-fire-red/5 rounded-lg border border-fire-red/20">
               <div className="text-4xl md:text-5xl font-bold text-fire-red mb-2">{stats.responses}</div>
-              <div className="text-fire-dark font-semibold">Emergency Responses</div>
+              <div className="text-fire-dark font-semibold">Incident Responses</div>
             </div>
             <div className="text-center p-6 bg-fire-orange/5 rounded-lg border border-fire-orange/20">
               <div className="text-4xl md:text-5xl font-bold text-fire-orange mb-2">{stats.volunteers}</div>
@@ -110,13 +110,13 @@ export default function HomePage() {
             <h2 className="mb-6">A Message from the Chief</h2>
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <p className="text-lg mb-4">
-                Welcome to the TFS Volunteer Fire Department website. As Chief, I'm proud to lead a dedicated team of volunteers who selflessly serve our community in Fortine and the surrounding areas.
+                Welcome to the TFS Volunteer Fire Department website. As Chief, I&apos;m proud to lead a dedicated team of volunteers who selflessly serve our community in Fortine and the surrounding areas.
               </p>
               <p className="mb-4">
                 Our department specializes in emergency response, fire prevention education, and specialized wildfire response in our rural, forested region. Every member of our team is committed to protecting lives, property, and our beautiful Montana landscape.
               </p>
               <p className="mb-4">
-                Whether you're a resident seeking safety information, a potential volunteer looking to serve, or a community member wanting to support our mission, we're here for you. Thank you for your continued support.
+                Whether you&apos;re a resident seeking safety information, a potential volunteer looking to serve, or a community member wanting to support our mission, we&apos;re here for you. Thank you for your continued support.
               </p>
               <p className="font-semibold">— Chief Isaiah Williams</p>
             </div>
@@ -170,7 +170,7 @@ export default function HomePage() {
         <div className="container-custom text-center">
           <h2 className="mb-6">Get Involved</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Join us in protecting our community. Whether you want to volunteer, donate, or learn more about fire safety, we're here to help.
+            Join us in protecting our community. Whether you want to volunteer, donate, or learn more about fire safety, we&apos;re here to help.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/volunteer" className="btn-secondary bg-white text-fire-red hover:bg-fire-orange hover:text-white">

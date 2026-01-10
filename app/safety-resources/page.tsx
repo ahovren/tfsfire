@@ -142,28 +142,28 @@ export default function SafetyResourcesPage() {
       <section className="section-padding bg-fire-red text-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-center mb-8">Remember: If There's a Fire</h2>
+            <h2 className="text-center mb-8">Remember: If There&apos;s a Fire</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
                 <h3 className="text-xl font-bold mb-3 flex items-center">
                   <AlertTriangle className="w-6 h-6 mr-2" aria-hidden="true" />
                   Get Out
                 </h3>
-                <p>Leave immediately. Don't stop for belongings. Close doors behind you as you leave.</p>
+                <p>Leave immediately. Don&apos;t stop for belongings. Close doors behind you as you leave.</p>
               </div>
               <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
                 <h3 className="text-xl font-bold mb-3 flex items-center">
                   <Phone className="w-6 h-6 mr-2" aria-hidden="true" />
                   Call 9-1-1
                 </h3>
-                <p>Call from outside your home or a neighbor's house. Never go back inside a burning building.</p>
+                <p>Call from outside your home or a neighbor&apos;s house. Never go back inside a burning building.</p>
               </div>
               <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
                 <h3 className="text-xl font-bold mb-3 flex items-center">
                   <Shield className="w-6 h-6 mr-2" aria-hidden="true" />
                   Stay Out
                 </h3>
-                <p>Once you're out, stay out. Wait for firefighters at your meeting place.</p>
+                <p>Once you&apos;re out, stay out. Wait for firefighters at your meeting place.</p>
               </div>
               <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
                 <h3 className="text-xl font-bold mb-3">Stay Low</h3>

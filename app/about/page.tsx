@@ -53,7 +53,7 @@ export default function AboutPage() {
               The TFS Volunteer Fire Department was established in the 1950s to serve the rural communities of Trego, Fortine, and Stryker Montana, and the surrounding forested areas. What began as a small group of dedicated volunteers has grown into a professional, well-equipped department ready to respond to any emergency.
             </p>
             <p className="mb-6">
-              Over the years, we've expanded our capabilities to include specialized wildfire response and comprehensive fire prevention programs. Our department operates two fire stations strategically located to ensure rapid response times across our coverage area.
+              Over the years, we have expanded our capabilities to include specialized wildfire response and comprehensive fire prevention programs. Our department operates two fire stations strategically located to ensure rapid response times across our coverage area.
             </p>
             
             <h2 className="mb-6 mt-12">Our Mission</h2>
