@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { AlertTriangle, Users, Calendar, Shield, Flame, ArrowRight } from 'lucide-react'
 
 export const metadata = {
-  title: 'Home',
+  title: 'TFS Fire | Home',
   description: 'Protecting Fortine and Beyond. TFS Volunteer Fire Department serving the community with emergency response, fire prevention, and wildfire expertise.',
 }
 
