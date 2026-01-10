@@ -135,7 +135,7 @@ export default function ServicesPage() {
               Prevention is the best defense against fires. TFS offers comprehensive fire prevention services including inspections, safety education, and community programs.
             </p>
             <div className="grid md:grid-cols-2 gap-8">
-              <div>
+              {/* <div>
                 <h3 className="text-xl font-bold mb-4">Fire Safety Inspections</h3>
                 <p className="mb-4">
                   We offer free fire safety inspections for homes and businesses. Our trained personnel will identify potential hazards and provide recommendations for improvement.
@@ -143,7 +143,7 @@ export default function ServicesPage() {
                 <Link href="/contact" className="btn-primary inline-block">
                   Request an Inspection
                 </Link>
-              </div>
+              </div> */}
               <div>
                 <h3 className="text-xl font-bold mb-4">Fire Safety Tips</h3>
                 <ul className="space-y-2">

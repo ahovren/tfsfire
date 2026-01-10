@@ -120,8 +120,8 @@ export default function VolunteerPage() {
               <h3 className="font-bold mb-2">Requirements</h3>
               <ul className="list-disc list-inside space-y-1 text-fire-dark/70">
                 <li>Minimum age of 18 years</li>
-                <li>Reside within reasonable distance of Fortine area</li>
-                <li>Pass background check and physical fitness assessment</li>
+                <li>Reside within the Fire Service area or a reasonable distance from the Fire Service area</li>
+                <li>Pass background check</li>
                 <li>Complete required training program</li>
                 <li>Commit to regular training and response availability</li>
               </ul>
