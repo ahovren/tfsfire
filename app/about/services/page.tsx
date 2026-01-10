@@ -132,7 +132,7 @@ export default function ServicesPage() {
               <h2 className="text-3xl">Fire Prevention</h2>
             </div>
             <p className="text-lg mb-6">
-              Prevention is the best defense against fires. TFS offers comprehensive fire prevention services including inspections, safety education, and community programs.
+              Prevention is the best defense against fires. TFS offers comprehensive fire prevention services including safety education and community programs.
             </p>
             <div className="grid md:grid-cols-2 gap-8">
               {/* <div>
@@ -228,9 +228,9 @@ export default function ServicesPage() {
             <Link href="/contact" className="btn-secondary bg-white text-fire-red hover:bg-fire-orange hover:text-white">
               Contact Us
             </Link>
-            <a href="tel:+14061234567" className="btn-outline border-white text-white hover:bg-white hover:text-fire-red flex items-center justify-center">
+            <a href="tel:+14068824810" className="btn-outline border-white text-white hover:bg-white hover:text-fire-red flex items-center justify-center">
               <Phone className="mr-2 w-5 h-5" aria-hidden="true" />
-              (406) 123-4567
+              (406) 882-4810
             </a>
           </div>
         </div>
