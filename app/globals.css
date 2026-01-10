@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white text-fire-dark antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-fire-red text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-fire-red focus:ring-offset-2;
+  }
+  
+  .btn-secondary {
+    @apply bg-fire-orange text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-fire-orange focus:ring-offset-2;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-fire-red text-fire-red px-6 py-3 rounded-lg font-semibold hover:bg-fire-red hover:text-white transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-fire-red focus:ring-offset-2;
+  }
+  
+  .section-padding {
+    @apply py-12 md:py-16 lg:py-20;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* Custom Calendar Styles - No longer using react-calendar */
+/* All calendar styling is now handled via Tailwind classes in the component */
+
+/* Accessibility: High contrast mode support */
+@media (prefers-contrast: high) {
+  .btn-primary,
+  .btn-secondary {
+    @apply border-2 border-black;
+  }
+}
+
+/* Focus visible for keyboard navigation */
+*:focus-visible {
+  @apply outline-2 outline-offset-2 outline-fire-red;
+}
+
+/* Smooth scroll offset for fixed nav */
+html {
+  scroll-padding-top: 80px;
+}
+
+/* Body padding for fixed navigation */
+body {
+  padding-top: 80px;
+}
