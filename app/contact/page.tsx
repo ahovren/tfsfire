@@ -129,7 +129,7 @@ export default function ContactPage() {
               {submitStatus === 'success' && (
                 <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-2" aria-hidden="true" />
-                  <p className="text-green-800">Message sent successfully! We'll get back to you soon.</p>
+                  <p className="text-green-800">Message sent successfully! We&apos;ll get back to you soon.</p>
                 </div>
               )}
 
