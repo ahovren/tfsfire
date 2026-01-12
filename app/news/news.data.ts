@@ -35,8 +35,6 @@ export type NewsArticle = {
       image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1920&q=80',
       category: 'Department News',
     },
-  
-    // Add more articles here later with normal block comments:
     /*
     {
       id: 2,
