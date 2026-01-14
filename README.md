@@ -1,7 +1,5 @@
 # TFS Volunteer Fire Department
 
-A professional, authoritative website for the TFS Volunteer Fire Department in Fortine, Montana. Built with Next.js 14.
-
 ## Features
 
 - **Modern Next.js 14** with App Router and TypeScript
