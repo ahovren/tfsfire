@@ -183,9 +183,5 @@ This project is created for the TFS Volunteer Fire Department. All rights reserv
 ## Support
 
 For questions or issues, contact:
-- Email: info@tfs-fire.org
-- Phone: (406) 123-4567
-
----
-
-**Built with ❤️ for the TFS Volunteer Fire Department**
+- Email: info@tfsfire.org
+- Phone: (406) 882-4810
