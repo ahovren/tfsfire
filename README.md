@@ -36,37 +36,37 @@ npm install
 
 2. **Set up environment variables:**
    - Copy `.env.example` to `.env.local`
-   - Fill in your EmailJS credentials (see EmailJS Setup below)
+   - Fill in EmailJS credentials (see EmailJS Setup below)
    - Optionally add Stripe keys for donation processing
    - For password protection on Vercel preview deployments, set:
      - `ENABLE_PASSWORD_PROTECTION=true`
-     - `SITE_PASSWORD=your_secure_password`
+     - `SITE_PASSWORD=secure_password`
 
 3. **Run the development server:**
 ```bash
 npm run dev
 ```
 
-4. **Open [http://localhost:3000](http://localhost:3000)** in your browser.
+4. **Open [http://localhost:3000](http://localhost:3000)** in browser.
 
 ## EmailJS Setup (for Contact Form)
 
 1. Sign up for a free account at [EmailJS](https://www.emailjs.com/)
 2. Create an email service (Gmail, Outlook, etc.)
 3. Create an email template with variables: `{{from_name}}`, `{{from_email}}`, `{{subject}}`, `{{message}}`
-4. Get your Service ID, Template ID, and Public Key from the dashboard
-5. Add them to your `.env.local` file:
+4. Get Service ID, Template ID, and Public Key from the dashboard
+5. Add them to `.env.local` file:
 ```
-NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
-NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
-NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=template_id
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=public_key
 ```
 
-## Payment Integration (Optional)
+## Payment Integration
 
 ### Stripe Setup
 1. Create a Stripe account at [stripe.com](https://stripe.com)
-2. Get your publishable key from the dashboard
+2. Get publishable key from the dashboard
 3. Add to `.env.local`: `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_...`
 4. Implement payment processing in `/app/donate/page.tsx` (currently placeholder)
 
@@ -94,16 +94,16 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
 
 ### Vercel (Recommended)
 
-1. Push your code to GitHub
+1. Push code to GitHub
 2. Import project in [Vercel](https://vercel.com)
 3. Add environment variables in Vercel dashboard:
    - **EmailJS credentials** (if using contact form)
    - **Password Protection** (for preview deployments):
      - `ENABLE_PASSWORD_PROTECTION=true`
-     - `SITE_PASSWORD=your_secure_password`
+     - `SITE_PASSWORD=secure_password`
 4. Deploy!
 
-**Password Protection:** To temporarily password protect your site on Vercel, set `ENABLE_PASSWORD_PROTECTION=true` and `SITE_PASSWORD=your_password` in your Vercel environment variables. Visitors will be redirected to a login page before accessing the site. Set to `false` or remove these variables to make the site public.
+**Password Protection:** Set `ENABLE_PASSWORD_PROTECTION=true` and `SITE_PASSWORD=password` in  Vercel environment variables. Visitors will be redirected to a login page before accessing the site. Set to `false` or remove these variables to make the site public.
 
 ```bash
 # Or use Vercel CLI
@@ -113,13 +113,13 @@ vercel
 
 ### Other Platforms
 - Works with any platform supporting Next.js (Netlify, AWS Amplify, etc.)
-- Ensure environment variables are set in your hosting platform
+- Ensure environment variables are set in hosting platform
 
 ## Project Structure
 
 ```
 tfs/
-├── app/                    # Next.js App Router pages
+├── app/                   # Next.js App Router pages
 │   ├── about/             # About Us page
 │   ├── contact/           # Contact form page
 │   ├── donate/            # Donation page
